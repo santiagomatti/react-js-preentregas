@@ -1,6 +1,4 @@
-function ItemlistContainer() {
-
-    const greeting = "Te damos la bienvenida";
+function ItemlistContainer({greeting}) {
 
     return (
     <header className="bg-dark py-5">
