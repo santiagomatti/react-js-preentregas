@@ -27,5 +27,5 @@ export const ItemListContainer = () => {
             </header>
             {productos ? <ItemList productos={productos} /> : <>Cargando...</>}
         </main>
-    );
+    )
 }

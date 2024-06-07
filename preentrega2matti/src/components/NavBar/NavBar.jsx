@@ -6,7 +6,7 @@ export const NavBar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container px-4 px-lg-5">
                 <NavLink to={'/'} className="navbar-brand">
-                    <img className="img-sm" src="logo.png" alt="Logo" />
+                    <img className="img-sm" src="https://raw.githubusercontent.com/santiagomatti/react-js-preentregas/main/preentrega2matti/public/logo.png" alt="Logo" />
                     BlackHat
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
@@ -38,5 +38,5 @@ export const NavBar = () => {
                 </div>
             </div>
         </nav>
-    );
+    )
 }

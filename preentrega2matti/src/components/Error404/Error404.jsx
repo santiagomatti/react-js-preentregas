@@ -8,5 +8,5 @@ export const Error404 = () => {
                 </div>
             </div>
         </header>
-    );
+    )
 }

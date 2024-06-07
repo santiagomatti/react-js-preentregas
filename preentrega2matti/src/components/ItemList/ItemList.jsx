@@ -1,4 +1,4 @@
-import { Item } from '../Item/Item';
+import { Item } from '../Item/Item'
 
 export const ItemList = ({ productos }) => {
     return (
@@ -14,5 +14,5 @@ export const ItemList = ({ productos }) => {
                 </div>
             </div>
         </section>
-    );
+    )
 }

@@ -4,7 +4,9 @@ export const Item = ({ id, name, img, price }) => {
     return (
         <div className="col mb-5">
             <div className="card h-100">
-                <img className="card-img-top" src={img} alt={name} />
+                <Link to={`/item/${id}`}>
+                    <img className="card-img-top" src={img} alt={name} />
+                </Link>
                 <div className="card-body p-4">
                     <div className="text-center">
                         <h5 className="fw-bolder">{name}</h5>
