@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .contenedor > * {
+    flex: 0 0 350px; /* Tamaño fijo de 200px para cada tarjeta */
+    margin: 10px;
+  }
